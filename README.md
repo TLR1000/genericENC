@@ -2,7 +2,7 @@
 Collection of scripts for ENC or IENC chart processing using python
 
 
-# cl_list_buoys_in_ENC.py
+# cl_list_buoys_in_ENC.py - List all buoys in the ENC
 This script is designed to extract buoy data from Electronic Navigational Chart (ENC) files using the GDAL/OGR library. The script processes ENC files to identify and extract various attributes of buoys, such as their type, position, color, shape, and associated light characteristics. The extracted data is then saved to a text file and printed to the console.
 The script sets up logging to both a file (enc_extraction.log) and the console, with a specific format for log messages.
 
